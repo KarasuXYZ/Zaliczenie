@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    font-size: 28px;
+    background-color: rgba(11, 17, 3, 0.365);
+
+}
+
+body{
+    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+header,main,footer{
+    z-index: 1;
+}
+
+header{
+    width: 100%;
+   display: grid;
+}
+
+main{
+    height: 80%;
+}
+
+footer{
+width: 100%;
+padding: 20px;
+background-color:rgba(9, 9, 20, 0.482);
+font-size: 30px;
+
+}
+.logo {
+    justify-self: start;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.time {
+    justify-self: end;
+    padding-right: 10px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;             
+    background:#9fbb25  ; 
+  }

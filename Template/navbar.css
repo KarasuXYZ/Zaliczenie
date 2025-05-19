@@ -1,0 +1,58 @@
+:root{
+    --span1:translate(-5px, 5px);
+    --span2:translate(5px, -5px);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    /* dodać tło */
+    padding: 20px;
+    justify-content: left;
+}
+
+ul li {
+    padding: 0 20px;
+    font-weight: 600;
+    border-right: black 3px solid ;
+  }
+
+  ul li a {
+    position: relative;             
+    display: inline-block;          
+    text-decoration: none;
+    overflow: visible;
+  }
+  ul li a span {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  ul li a span:hover{
+    cursor: pointer;
+  }
+
+  ul li a span:nth-child(1) {
+    position: relative;             
+    color: #fff;
+  }
+
+  ul li a span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    pointer-events: none;
+  }
+
+  ul li a:hover span:nth-child(1) {
+    transform: var(--span2);
+    color: #ff4081;
+    z-index: 2;
+  }
+
+  ul li a:hover span:nth-child(2) {
+    transform: var(--span1);
+    color: #40c4ff;
+    z-index: 1;
+  }
