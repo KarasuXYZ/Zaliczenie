@@ -22,6 +22,7 @@ ul li {
     display: inline-block;          
     text-decoration: none;
     overflow: visible;
+    font-family: poppins;
   }
   ul li a span {
     display: inline-block;

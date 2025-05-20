@@ -31,6 +31,9 @@ header{
 
 main{
     height: 80%;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
 }
 
 footer{
@@ -63,3 +66,4 @@ font-size: 30px;
     z-index: -1;             
     background:#9fbb25  ; 
   }
+

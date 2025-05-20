@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Główna</title>
+    <link rel="icon" href="style.css">
+    <link rel="stylesheet" href="Template/conector.css">
+</head>
+<body>
+    <div id="loader" class="loader">Ładowanie...</div>
+     <div id="particles-js"> </div>
+         <header>
+           <!-- Logo i akutalny czas-->
+          <div class="logo"><a href="#">Logo
+            <img src="#" alt="">
+              </a></div>
+
+              <div class="time">
+            <p id="time">Ładowanie czasu...</p>
+            </div>
+
+            <!-- Panel nawigacyjny-->
+           <ul>
+                <li><a href=""><span>Strona Główna</span><span>Strona Główna</span></a></li>
+                <li><a href=""><span>Zadania</span><span>Zadania</span></a></li>
+                <li><a href=""><span>Logowanie</span><span>Logowanie</span></a></li>
+                <li><a href=""><span>Galeria Zdjęć</span><span>Galeria Zdjęć</span></a></li>
+                <li><a href=""><span>O stronie</span><span>O stronie</span></a></li>
+            </ul>
+
+        </header>
+
+        <main>
+
+            <div class="container">
+                <h2>Witaj na Stronie Matematycznej</h2>
+                <p class="tekst">Witaj na stronie na której możesz rozwijać swoje umiejętności matematyczne. Strona jest bogata w zawansowane algortymy tworzące zadania jak i świetną Galerię zdjęć</p>
+                <button class="Pen-bt" ></button>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Autor Sebastian Kramarz &copy;</p>
+        </footer>
+     
+    <!-- Dodawanie  skryptów-->
+     <!-- Skeypt odpowiadający za pkazanie czasu-->
+    <script src="Template/time.js"></script>
+    <!-- Dodanie bibioteki Particles JS i nadanie wortości naszym particlesą-->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="Template/Particles.js"></script> 
+    <!-- Dodanie ekranu ładowania-->
+     <script src="Template/Loader.js"></script>
+</body>
+</html>
